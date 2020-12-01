@@ -1,0 +1,30 @@
+/*
+    Day 0: Hello, World
+
+    Input Format : A single line of text denoting inputString (the variable whose contents must be printed).
+
+    Output Format : Print Hello, World. on the first line, and the contents of inputString on the second line.
+*/
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in); 
+		String inputString = scan.nextLine(); 
+        scan.close();
+        System.out.println("Hello, World.");
+        System.out.println(inputString);
+	}
+}
+
+/*
+Sample Input:
+    Welcome to 30 Days of Code!
+Sample Output:
+    Hello, World. 
+    Welcome to 30 Days of Code!
+*/

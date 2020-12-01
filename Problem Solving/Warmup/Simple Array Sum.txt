@@ -1,0 +1,33 @@
+/*
+    Simple Array Sum
+
+*/
+import java.util.*;
+class Solution{
+     static int simpleArraySum(int[] ar) {
+       int sum = 0;
+       for(int i =0 ;i < ar.length ;i++){
+           sum+=ar[i];
+       }
+        return sum;
+    }
+    public static void main(String args[]){
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int sum = 0; 
+        int ar[] = new int[n];
+        for(int i=0 ;i<n;i++){
+            ar[i] = scan.nextInt();
+        }
+       sum = simpleArraySum(ar);
+       System.out.println(sum);
+    }
+}
+
+/*
+sample i/p:
+    6
+    1 2 3 4 10 11
+ sample o/p:
+    31   
+*/
