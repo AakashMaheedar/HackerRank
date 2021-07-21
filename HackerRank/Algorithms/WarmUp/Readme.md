@@ -5,3 +5,6 @@
 - 4) A Very Big Sum (AVeryBigSum.java)
 - 5) Diagonal Difference (DiagonalDifference.java)
 - 6) Plus Minus (PlusMinus.java)
+- 7) Staircase (Staircase.java)
+- 8) Mini-Max Sum (Mini-MaxSum.java)
+- 9) Birthday Cake Candles (BirthdayCakeCandles.java)
