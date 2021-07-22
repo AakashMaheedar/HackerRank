@@ -8,3 +8,4 @@
 - 7) Staircase (Staircase.java)
 - 8) Mini-Max Sum (Mini-MaxSum.java)
 - 9) Birthday Cake Candles (BirthdayCakeCandles.java)
+- 10) Time Conversion (TimeConversion.java)
